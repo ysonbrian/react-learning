@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Counter from './03/Counter';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <h1 className="title">DO IT React!</h1>
+      <div>
+        <Counter />
       </div>
     );
   }
